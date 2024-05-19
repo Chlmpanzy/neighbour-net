@@ -7,6 +7,7 @@ CORS(app)
 #Sign in page
 @app.route("/sign-in", methods = ['POST'])
 def signin():
+    return "N/A"
     with open('neighbour-net/signin-backend/users.json', 'r') as file:
         users = json.load(file)
 
@@ -22,6 +23,7 @@ def signin():
 
 @app.route("/sign-up", methods = ['POST'])
 def signup():
+    return "N/A"
     with open('neighbour-net/signin-backend/users.json', 'r') as file:
         users = json.load(file)
 
